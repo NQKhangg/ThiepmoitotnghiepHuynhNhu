@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
       avatar.src = avatar.dataset.fallback;
     }
   });
+
   // Custom Toast Notification System
   function showToast(message, icon = 'fa-check-circle') {
     const container = document.getElementById('toast-container');
